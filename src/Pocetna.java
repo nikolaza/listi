@@ -12,8 +12,8 @@ public class Pocetna {
 		listaNaBroevi.add(88);
 		listaNaBroevi.add(50);
 		List<Integer> pomaliOd50 = listaNaBroevi.stream()
-				.filter(x -> x<=50)
-				.map(x -> x*2)
+				.filter(x -> x<=20)
+				.map(x -> x*3)
 				.collect(Collectors.toList());
 		System.out.println(pomaliOd50);
 		
